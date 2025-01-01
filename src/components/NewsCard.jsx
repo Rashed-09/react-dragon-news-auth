@@ -3,6 +3,7 @@ import { AiFillStar } from "react-icons/ai";
 
 const NewsCard = (props = {}) => {
   const { news } = props || {};
+  console.log(news)
 
   return (
     <div className=" p-4 bg-white rounded-lg shadow-md">
